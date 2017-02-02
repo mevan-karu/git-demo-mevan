@@ -14,11 +14,14 @@ public class Main {
 		a = scanner.nextInt();
 		System.out.println("Enter Second Number: ");
 		b = scanner.nextInt();
-		System.out.println("Enter Operation:");
+		System.out.println("Enter Operation:"); //operation
 		operation = scanner.next();
 		if ("+".equals(operation)){
 			answer = add(a,b);
 			System.out.println("Answer is: " + answer);
+		} else if ("-".equals(operation)){
+			answer = a -b
+ 			System.out.println("Answer is: " + answer);	
 		} else {
 			System.out.println("Unsupported Operation");
 		}
